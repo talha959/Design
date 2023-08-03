@@ -1,0 +1,40 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid rgb(105, 0, 0);
+    padding: 50px;
+    margin: 20px;
+  }  
+  .compare-container{
+    background-color: black;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    flex-wrap: wrap;
+    /* flex: 1 1 160px; */
+  }
+  .compare-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    outline: solid 1px blue;
+  }
+  
+  /*items in the flex container all equally sized for easy demoing*/
+  .compare-container.item{
+    outline: solid 1px darkgray;
+    width: 50px;
+    height: 50px;
+    /* the flex layout for items it's for the sake of easily center their content*/
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+  
+  /* .compare-container> *:first-child {
+    outline: solid 1px red;
+    flex-basis: 100%;
+  } */
